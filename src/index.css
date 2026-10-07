@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Blockly Zelos Scratch customizations */
+.blocklyMainBackground {
+  stroke: none !important;
+  fill: #FFEDE8 !important;
+}
+
+.blocklyToolboxDiv {
+  background-color: #FFFFFF !important;
+  border-right: 1px solid #F3D2C9 !important;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.04);
+}
+
+.blocklyTreeRow {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 6px 10px !important;
+  margin: 3px 6px !important;
+  border-radius: 8px !important;
+}
+
+.blocklyFlyoutBackground {
+  fill: #FFF7F5 !important;
+  fill-opacity: 0.96 !important;
+}
+
+/* Error block highlight in red */
+.blockly-error-block path {
+  stroke: #EF4444 !important;
+  stroke-width: 4px !important;
+  filter: drop-shadow(0 0 8px rgba(239, 68, 68, 0.8)) !important;
+}
+
+/* Classroom Presentation Mode: Larger text & bold blocks for projection */
+.classroom-mode .blocklyText {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.classroom-mode .blocklyEditableText > text {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

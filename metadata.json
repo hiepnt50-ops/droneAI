@@ -1,0 +1,6 @@
+{
+  "name": "Mô phỏng Drone WhalesBot Eagle 1003",
+  "description": "Ứng dụng mô phỏng lập trình bay drone giáo dục WhalesBot Eagle 1003 với Blockly và đồ họa 3D tương tác.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
